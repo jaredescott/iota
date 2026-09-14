@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iota.ai — Count the smallest things, at scale</title>
+  <meta name="description" content="iota.ai builds tabletop robotics and computer vision systems that scan and count minuscule objects — from museum specimens and gemstones to cells, particles, and anything too small to tally by hand.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="iota.ai home">iota<span>.ai</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#markets">Markets</a>
+      <a href="#how">How it works</a>
+      <a href="#background">Background</a>
+      <a class="nav-cta" href="#interest">Get involved</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-brand">
+      <div class="hero-media" aria-hidden="true">
+        <div class="hero-collage">
+          <img src="assets/img/prototype-dish.jpg" alt="" class="hero-collage-img hero-collage-cells">
+          <img src="assets/img/stock-snail-shell.jpg" alt="" class="hero-collage-img hero-collage-snail">
+          <img src="assets/img/stock-beads.jpg" alt="" class="hero-collage-img hero-collage-beads">
+        </div>
+        <div class="hero-veil"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-brand" id="hero-brand">iota.ai</p>
+        <h1 class="hero-title">Intelligent multiscale imaging - for when the little things count.</h1>
+        <p class="hero-lede">A tabletop imaging platform that scans trays and dishes, then uses computer vision to enumerate cells, colonies, museum specimens, gemstones, and other minuscule objects — too small to count reliably by eye, at any scale.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#interest">Tell us what you would count</a>
+          <a class="btn btn-ghost" href="#markets">See who it is for</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section problem reveal" id="problem">
+      <div class="section-inner narrow">
+        <p class="eyebrow">The problem</p>
+        <h2>When things are small, counting does not scale.</h2>
+        <p class="section-lede">Labs score colony-forming assays and cell cultures dish by dish. Museums catalog thousands of specimens. Jewelers sort beads and melee by the tray. Quality teams inspect powders and particles under magnification. The work is repetitive, error-prone, and hard to reproduce — and it only gets worse as sample volume grows.</p>
+      </div>
+    </section>
+
+    <section class="section platform reveal" id="platform">
+      <div class="section-inner">
+        <p class="eyebrow">The platform</p>
+        <h2>Precision motion. High-res imaging. Tunable vision.</h2>
+        <p class="section-lede">iota is a tabletop imaging platform that scans a sample area and counts what you define — cells, specimens, beads, particles — with tunable detection for each use case.</p>
+        <ul class="pillars">
+          <li>
+            <span class="pillar-label">Scan</span>
+            <span class="pillar-desc">Capture a tray or dish automatically and build a full-field view of your sample.</span>
+          </li>
+          <li>
+            <span class="pillar-label">Detect</span>
+            <span class="pillar-desc">Threshold by size, shape, contrast, and density — tuned to your specimen, not a generic model.</span>
+          </li>
+          <li>
+            <span class="pillar-label">Count and export</span>
+            <span class="pillar-desc">Output totals, coordinates, and images for records, QC logs, or collection databases.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section markets reveal" id="markets">
+      <div class="section-inner">
+        <p class="eyebrow">Who it is for</p>
+        <h2>From petri dishes to sorting trays.</h2>
+        <p class="section-lede">Cell counting remains a core market — and the same platform extends to museums, jewelers, manufacturers, and anyone else tallying minuscule objects under magnification.</p>
+        <ul class="use-cases">
+          <li class="use-case-featured">
+            <img src="assets/img/prototype-colonies.jpg" alt="Giemsa-stained fibroblast colonies from prototype scans" class="use-thumb">
+            <div class="use-text">
+              <span class="use-label">Life sciences and clinical</span>
+              <span class="use-desc">Colony-forming assays, cell cultures, and nuclei counts — a core use case we are building for.</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/stock-snail-shell.jpg" alt="" class="use-thumb">
+            <div class="use-text">
+              <span class="use-label">Natural history and museums</span>
+              <span class="use-desc">Count snails, shells, insect parts, seeds, and voucher specimens for digitization and collection management.</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/stock-beads.jpg" alt="" class="use-thumb">
+            <div class="use-text">
+              <span class="use-label">Jewelry and gemstones</span>
+              <span class="use-desc">Tally melee diamonds, beads, and small findings across sorting trays — faster than hand counts with an audit trail.</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/stock-water.jpg" alt="" class="use-thumb">
+            <div class="use-text">
+              <span class="use-label">Environmental and water quality</span>
+              <span class="use-desc">Enumerate plankton, microplastics, or sediment particles in field and lab samples.</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/stock-manufacturing.jpg" alt="" class="use-thumb">
+            <div class="use-text">
+              <span class="use-label">Materials and manufacturing QC</span>
+              <span class="use-desc">Particle sizing and defect counts in powders, coatings, solder spheres, and additive-manufacturing feedstock.</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/stock-seeds.jpg" alt="" class="use-thumb">
+            <div class="use-text">
+              <span class="use-label">Agriculture and food</span>
+              <span class="use-desc">Seed counts, pest eggs, yeast colonies, and contamination screening on production lines or in R&amp;D.</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="pittsburgh">
+          <p class="pittsburgh-label">Especially relevant in Pittsburgh</p>
+          <p class="pittsburgh-text">From the Carnegie Museum of Natural History mollusk collections and CMU/UPitt research labs to Liberty Avenue jewelers, regional water authorities, and the advanced manufacturing cluster around powder metals and robotics — Pittsburgh is full of people counting small things by hand. iota is being shaped with that ecosystem in mind.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how reveal" id="how">
+      <div class="section-inner">
+        <p class="eyebrow">How it works</p>
+        <h2>Load. Scan. Detect. Count.</h2>
+        <p class="section-lede">Brief human setup, then automated acquisition and analysis — whether your sample is a petri dish, a sorting tray, or a custom fixture.</p>
+        <ol class="workflow">
+          <li>
+            <span class="step-num">01</span>
+            <h3>Load and focus</h3>
+            <p>Place the sample, home the stage, set focus for your object size.</p>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <h3>Scan the field</h3>
+            <p>The system captures the sample area and assembles a high-resolution map.</p>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <h3>Detect</h3>
+            <p>Vision isolates targets by the parameters you define for that specimen class.</p>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <h3>Count and export</h3>
+            <p>Output totals, labeled images, and data for your workflow or database.</p>
+          </li>
+        </ol>
+        <figure class="pipeline-figure">
+          <img src="assets/img/pipeline.svg" alt="Diagram: load sample, scan tiles, detect colonies, export counts">
+          <figcaption>From dish to data — the same scan-detect-count loop whether you are scoring CFC assays or sorting specimens.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section proven reveal" id="background">
+      <div class="section-inner narrow">
+        <p class="eyebrow">Where we are</p>
+        <h2>Proven in practice, evolving for what&rsquo;s next.</h2>
+        <p class="section-lede">An early benchtop prototype validated automated counting on real samples — from cell colonies to other small objects under magnification. iota is the next-generation platform, now being shaped with input from labs, museums, jewelers, and manufacturers who need reliable tallies without the tedium of doing it by hand.</p>
+      </div>
+    </section>
+
+    <section class="section interest reveal" id="interest">
+      <div class="section-inner narrow">
+        <p class="eyebrow">Interest form</p>
+        <h2>What would you use an iota machine for?</h2>
+        <p class="section-lede">We are gathering early interest from labs, museums, jewelers, manufacturers, and anyone else drowning in microscopic tally work. Tell us your use case.</p>
+
+        <form class="interest-form" id="interest-form" novalidate>
+          <input type="hidden" name="_subject" value="iota.ai interest form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@organization.org">
+          </div>
+          <div class="field">
+            <label for="org">Organization <span class="optional">(optional)</span></label>
+            <input id="org" name="organization" type="text" autocomplete="organization" placeholder="Museum, shop, lab, or company">
+          </div>
+          <fieldset class="field checks">
+            <legend>I am interested in counting</legend>
+            <label class="check"><input type="checkbox" name="interest[]" value="cells"> Cells / colonies / bio assays</label>
+            <label class="check"><input type="checkbox" name="interest[]" value="museum"> Museum / natural history specimens</label>
+            <label class="check"><input type="checkbox" name="interest[]" value="jewelry"> Jewelry / gemstones / beads</label>
+            <label class="check"><input type="checkbox" name="interest[]" value="environmental"> Environmental / water samples</label>
+            <label class="check"><input type="checkbox" name="interest[]" value="materials"> Materials / manufacturing QC</label>
+            <label class="check"><input type="checkbox" name="interest[]" value="other"> Other</label>
+          </fieldset>
+          <div class="field">
+            <label for="use-case">What would you use iota for?</label>
+            <textarea id="use-case" name="use_case" rows="5" required placeholder="e.g. daily CFC assays on 60 mm dishes, cataloging land snails for the Carnegie collection, sorting 2 mm melee across trays, …"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" id="submit-btn">Submit interest</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-brand">iota.ai</p>
+    <p class="footer-note">Count the smallest things, at scale.</p>
+    <p class="footer-link"><a href="/">Back to jaredescott.github.io</a></p>
+    <p class="footer-credits">Colony photos from the A3C3S prototype. Other hero and market photos via <a href="https://unsplash.com/license">Unsplash</a>.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
